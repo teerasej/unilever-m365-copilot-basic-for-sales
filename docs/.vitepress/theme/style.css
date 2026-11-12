@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Noto Sans Thai';
+  src: url('/fonts/NotoSansThai-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --vp-font-family-base: 'Noto Sans Thai', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, Consolas, 'Noto Sans Thai', monospace;
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #0d9488;
+  --vp-c-brand-3: #0f766e;
+  --vp-c-brand-soft: #e5f5f1;
+  --vp-c-text-1: #142c43;
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f4f8fa;
+  --vp-code-block-bg: #f4f8fa;
+  --vp-sidebar-width: 280px;
+}
+
+.dark {
+  --vp-c-brand-1: #5eead4;
+  --vp-c-brand-2: #2dd4bf;
+  --vp-c-brand-3: #14b8a6;
+  --vp-c-brand-soft: #103e3d;
+  --vp-c-text-1: #e3edf4;
+  --vp-c-bg: #12202c;
+  --vp-c-bg-soft: #1a2b38;
+  --vp-code-block-bg: #1a2b38;
+}
+
+.vp-doc { line-height: 1.85; }
+.vp-doc h1 { line-height: 1.5; letter-spacing: -.02em; }
+.vp-doc h2 { line-height: 1.55; padding-top: 28px; margin-top: 44px; }
+.vp-doc h3, .vp-doc h4 { line-height: 1.65; }
+.vp-doc p, .vp-doc li { overflow-wrap: anywhere; }
+.vp-doc pre code { font-size: 14px; line-height: 1.85; }
+.vp-doc table { font-size: 14px; }
+.vp-doc td, .vp-doc th { line-height: 1.7; }
+.vp-doc img { border-radius: 8px; }
+.vp-doc :is(h2, h3, h4), .vp-doc [id^='practice-'] { scroll-margin-top: 96px; }
+.VPSidebarItem .text { line-height: 1.55; white-space: normal; }
+.VPSidebarItem.level-1 { padding-left: 2px; }
+.VPNavBarTitle .title { font-weight: 700; }
+.vp-doc a, .course-footer a { text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--vp-c-brand-2); outline-offset: 4px; border-radius: 3px; }
+
+.practice-illustration {
+  margin: 18px 0 22px;
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f4f9f8;
+  border: 1px solid #e2eeeb;
+}
+.practice-illustration.compact { height: 160px; }
+.practice-illustration img { display: block; width: 100%; height: 100%; object-fit: contain; margin: 0; border-radius: 0; }
+.sidebar-behavior { display: none; }
+.course-footer { position: relative; padding: 28px 24px; border-top: 1px solid var(--vp-c-divider); background: var(--vp-c-bg-soft); text-align: center; font-size: 13px; line-height: 1.8; color: var(--vp-c-text-2); }
+.course-footer p { margin: 4px 0; }
+.course-footer nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.course-footer a { color: var(--vp-c-brand-1); text-decoration: underline; }
+.dark .practice-illustration { background: #f4f9f8; }
+
+@media (min-width: 960px) {
+  .course-footer { padding-left: calc(var(--vp-sidebar-width) + 24px); }
+}
+@media (max-width: 767px) {
+  .vp-doc h1 { font-size: 27px; }
+  .vp-doc h2 { font-size: 23px; }
+  .practice-illustration { height: 180px; }
+  .practice-illustration.compact { height: 140px; }
+}

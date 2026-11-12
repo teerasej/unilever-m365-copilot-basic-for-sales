@@ -3,3 +3,6 @@ __pycache__/
 .cache/
 node_modules/
 *.log
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/dist-prefix/

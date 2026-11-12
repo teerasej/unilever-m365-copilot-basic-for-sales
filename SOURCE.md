@@ -27,7 +27,7 @@ unilever-1-premium-basic-agenda-exercises-add-office-file-practices-split-copilo
 
 New quick-exercise notes and communication examples are synthetic adaptations, not records of actual Unilever work. Original business-case sample files are copied unchanged from the pinned commit. Pasteable excerpts reproduce selected rows/sections only; they are not full-dataset substitutes for totals.
 
-Screenshots are retained source references, not evidence of the current learner tenant. No new presentation, hosted website, GitHub remote or publication is included. Instructor notes and verification artifacts are kept in the parent project's `instructor-notes` folder, outside this learner repository.
+Screenshots are retained source references, not evidence of the current learner tenant. A local VitePress learner site is included in this revision; no GitHub remote or public deployment has been configured. Instructor notes, artwork originals, private generation records and verification artifacts remain outside this learner repository.
 
 The [source asset manifest](source-assets.json) records SHA-256 checksums and Git blob hashes for the unchanged sample files and screenshots.
 
@@ -38,3 +38,9 @@ Core outputs use supplied content in organizational Copilot Chat. Native Office-
 Reference checked during preparation: [Microsoft Copilot overview](https://learn.microsoft.com/copilot/plan/copilot-overview). This does not replace learner-account rehearsal.
 
 Original notices are preserved. The personal copyright/contact block was added with the user's approval; this does not add a new open-source license or change the source ownership notice.
+
+## Website adaptation — 12 November 2026
+
+Learner content is canonical under `docs/`: homepage, agenda, nine exercise pages, Business Scenarios, downloads and pasteable excerpts. The original exercise filenames and heading text are retained; each Practice also has a stable `practice-N` alias. The site adds the approved Montivory attribution on the homepage and presents the original notices through one shared footer.
+
+The seven original sample files now live under `docs/public/downloads/copilot-in-action/`; the two retained source screenshots live under `docs/public/images/copilot/`. Their bytes are unchanged. Responsive illustration derivatives are additional site assets; untouched generated originals and private provenance are retained in the parent project asset library. The three-hour course agenda and exercise scope are unchanged.

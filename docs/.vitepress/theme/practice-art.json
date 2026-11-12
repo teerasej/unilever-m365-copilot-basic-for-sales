@@ -1,0 +1,578 @@
+{
+  "quick-01": {
+    "src": "/images/practices/quick-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "สรุปข้อสังเกตจากชั้นสินค้าเป็นบันทึกสั้น",
+    "variants": [
+      {
+        "src": "/images/practices/quick-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/quick-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "quick-02": {
+    "src": "/images/practices/quick-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ร่างอีเมลติดตามจากข้อตกลงของผู้ซื้อ",
+    "variants": [
+      {
+        "src": "/images/practices/quick-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/quick-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "quick-03": {
+    "src": "/images/practices/quick-03-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เปลี่ยนตารางโปรโมชันเป็นประเด็นสื่อสารของทีม Sales",
+    "variants": [
+      {
+        "src": "/images/practices/quick-03-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/quick-03-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "quick-04": {
+    "src": "/images/practices/quick-04-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ติดตามงานก่อนเปิดตัวโดยคงช่องที่ยังต้องยืนยัน",
+    "variants": [
+      {
+        "src": "/images/practices/quick-04-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/quick-04-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "quick-05": {
+    "src": "/images/practices/quick-05-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ส่งต่อข้อร้องเรียนให้ทีมภายในตรวจสอบ",
+    "variants": [
+      {
+        "src": "/images/practices/quick-05-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/quick-05-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "quick-06": {
+    "src": "/images/practices/quick-06-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "แยกงานเสร็จ ความเสี่ยง และงานถัดไปในรายงานประจำสัปดาห์",
+    "variants": [
+      {
+        "src": "/images/practices/quick-06-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/quick-06-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "comm-01": {
+    "src": "/images/practices/comm-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดบันทึกเยี่ยมร้านเป็นรายงานที่มีหัวข้อชัดเจน",
+    "variants": [
+      {
+        "src": "/images/practices/comm-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/comm-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "comm-02": {
+    "src": "/images/practices/comm-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ตรวจข้อตกลงก่อนร่างอีเมลถึงผู้ซื้อ",
+    "variants": [
+      {
+        "src": "/images/practices/comm-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/comm-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "comm-03": {
+    "src": "/images/practices/comm-03-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ย่อข้อความอีเมลโดยรักษาข้อตกลงเดิม",
+    "variants": [
+      {
+        "src": "/images/practices/comm-03-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/comm-03-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo-01": {
+    "src": "/images/practices/promo-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "รวมยอดขายโปรโมชันตามช่องทางจากตารางต้นทาง",
+    "variants": [
+      {
+        "src": "/images/practices/promo-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/promo-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo-02": {
+    "src": "/images/practices/promo-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ตรวจสินค้าที่เด่นและสัญญาณที่ควรถามต่อ",
+    "variants": [
+      {
+        "src": "/images/practices/promo-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/promo-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo-03": {
+    "src": "/images/practices/promo-03-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เรียบเรียงข้อมูลที่ตรวจแล้วเป็น Performance Brief",
+    "variants": [
+      {
+        "src": "/images/practices/promo-03-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/promo-03-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo-04": {
+    "src": "/images/practices/promo-04-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ร่างข้อความให้ทีมตรวจผลโปรโมชันก่อนประชุม",
+    "variants": [
+      {
+        "src": "/images/practices/promo-04-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/promo-04-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo-05": {
+    "src": "/images/practices/promo-05-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ปรับ Brief ให้เหมาะกับบทบาทของผู้รับ",
+    "variants": [
+      {
+        "src": "/images/practices/promo-05-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/promo-05-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo-06": {
+    "src": "/images/practices/promo-06-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดผลวิเคราะห์เป็นโครงสไลด์สำหรับผู้บริหาร",
+    "variants": [
+      {
+        "src": "/images/practices/promo-06-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/promo-06-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-01": {
+    "src": "/images/practices/launch-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "อ่านเป้าหมายและข้อจำกัดจาก Launch Brief",
+    "variants": [
+      {
+        "src": "/images/practices/launch-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-02": {
+    "src": "/images/practices/launch-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ตรวจสถานะและงานที่ติดขัดจาก Tracker",
+    "variants": [
+      {
+        "src": "/images/practices/launch-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-03": {
+    "src": "/images/practices/launch-03-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดงานติดตามโดยคง Owner และวันครบกำหนดตามข้อมูล",
+    "variants": [
+      {
+        "src": "/images/practices/launch-03-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-03-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-04": {
+    "src": "/images/practices/launch-04-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เตรียมข้อความติดตามให้ตรงกับบทบาทของทีม",
+    "variants": [
+      {
+        "src": "/images/practices/launch-04-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-04-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-05": {
+    "src": "/images/practices/launch-05-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เตรียม Brief ประชุมจากสถานะและเรื่องที่ต้องตัดสินใจ",
+    "variants": [
+      {
+        "src": "/images/practices/launch-05-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-05-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-06": {
+    "src": "/images/practices/launch-06-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ร่างอีเมลติดตามโดยไม่เปลี่ยนคำถามเป็นมติ",
+    "variants": [
+      {
+        "src": "/images/practices/launch-06-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-06-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch-07": {
+    "src": "/images/practices/launch-07-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัด Launch Pack เป็นชุดตารางพร้อมใช้ใน Excel",
+    "variants": [
+      {
+        "src": "/images/practices/launch-07-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/launch-07-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "verify-01": {
+    "src": "/images/practices/verify-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เทียบข้อสรุปกับหลักฐานจากเอกสารต้นทาง",
+    "variants": [
+      {
+        "src": "/images/practices/verify-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/verify-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "verify-02": {
+    "src": "/images/practices/verify-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ปรับข้อความที่ตรวจแล้วให้หัวหน้าทีมอ่านได้เร็ว",
+    "variants": [
+      {
+        "src": "/images/practices/verify-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/verify-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gallery-01": {
+    "src": "/images/practices/gallery-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เก็บ Prompt แล้วเปิดกลับมาใช้กับข้อมูลชุดใหม่",
+    "variants": [
+      {
+        "src": "/images/practices/gallery-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/gallery-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gallery-02": {
+    "src": "/images/practices/gallery-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ตรวจผู้รับก่อนเตรียมแชร์ Prompt ให้ทีม",
+    "variants": [
+      {
+        "src": "/images/practices/gallery-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/gallery-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "pages-01": {
+    "src": "/images/practices/pages-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เก็บ Action Tracker ที่ตรวจแล้วไว้ในเอกสารแก้ไขได้",
+    "variants": [
+      {
+        "src": "/images/practices/pages-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/pages-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "pages-02": {
+    "src": "/images/practices/pages-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เพิ่มคำถามสำหรับข้อมูลที่ยังต้องยืนยัน",
+    "variants": [
+      {
+        "src": "/images/practices/pages-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/pages-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "pages-03": {
+    "src": "/images/practices/pages-03-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ตรวจสิทธิ์เข้าถึงเอกสารก่อนนำลิงก์ไปใช้",
+    "variants": [
+      {
+        "src": "/images/practices/pages-03-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/pages-03-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback-01": {
+    "src": "/images/practices/feedback-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัด Feedback เป็นกลุ่มประเด็นจาก Log",
+    "variants": [
+      {
+        "src": "/images/practices/feedback-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/feedback-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback-02": {
+    "src": "/images/practices/feedback-02-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เลือกแนวทางตอบสนองโดยเทียบกับ Guideline",
+    "variants": [
+      {
+        "src": "/images/practices/feedback-02-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/feedback-02-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback-03": {
+    "src": "/images/practices/feedback-03-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ร่างข้อความภายในให้ทีมตรวจสอบ Feedback",
+    "variants": [
+      {
+        "src": "/images/practices/feedback-03-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/feedback-03-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback-04": {
+    "src": "/images/practices/feedback-04-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดลำดับประเด็นโดยตรวจระดับความสำคัญ",
+    "variants": [
+      {
+        "src": "/images/practices/feedback-04-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/feedback-04-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback-05": {
+    "src": "/images/practices/feedback-05-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "เตรียม Action Items พร้อมแหล่งข้อมูลและช่องที่ยังขาด",
+    "variants": [
+      {
+        "src": "/images/practices/feedback-05-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/feedback-05-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback-06": {
+    "src": "/images/practices/feedback-06-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "รวมข้อมูลที่ตรวจแล้วเป็นสรุปสำหรับ Word",
+    "variants": [
+      {
+        "src": "/images/practices/feedback-06-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/feedback-06-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "create-01": {
+    "src": "/images/practices/create-01-768.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "สร้างแนวคิดภาพแคมเปญแบบไม่มีแบรนด์",
+    "variants": [
+      {
+        "src": "/images/practices/create-01-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/practices/create-01-1536.webp",
+        "width": 1536
+      }
+    ]
+  }
+}

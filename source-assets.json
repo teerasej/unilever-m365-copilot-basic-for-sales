@@ -2,58 +2,67 @@
   "source_commit": "cda9b1329950c7d643242d0693c3f3308f29ea6b",
   "assets": [
     {
-      "path": "files/copilot-in-action/customer_feedback_issue_response.zip",
+      "path": "docs/public/downloads/copilot-in-action/customer_feedback_issue_response.zip",
       "sha256": "137d056b00b643ffc989f08654bd16462efa9d58e36e1e48b9d17c7381bc8b6f",
       "git_blob_sha1": "0856ef19adce30d362e580a7e087e19ac51f5dab",
-      "bytes": 42453
+      "bytes": 42453,
+      "source_path": "files/copilot-in-action/customer_feedback_issue_response.zip"
     },
     {
-      "path": "files/copilot-in-action/customer_feedback_log.xlsx",
+      "path": "docs/public/downloads/copilot-in-action/customer_feedback_log.xlsx",
       "sha256": "4524179f4ab14166d367c4e6fd27d3e1d4cda249ac094da33b92f168f9b89fa7",
       "git_blob_sha1": "f572ae5914c9cbeca3950d8af529aba58b0c839d",
-      "bytes": 8035
+      "bytes": 8035,
+      "source_path": "files/copilot-in-action/customer_feedback_log.xlsx"
     },
     {
-      "path": "files/copilot-in-action/issue_response_guideline.docx",
+      "path": "docs/public/downloads/copilot-in-action/issue_response_guideline.docx",
       "sha256": "58c8a45fbf75cdb2af02c829ae7852cb3f732987360e39ba615d7a8fb788082f",
       "git_blob_sha1": "17bc7b3ae72f44f22a73199013d4d3f82a79c19a",
-      "bytes": 37396
+      "bytes": 37396,
+      "source_path": "files/copilot-in-action/issue_response_guideline.docx"
     },
     {
-      "path": "files/copilot-in-action/launch_readiness_tracker.xlsx",
+      "path": "docs/public/downloads/copilot-in-action/launch_readiness_tracker.xlsx",
       "sha256": "2c45b49c61d0d43922075f1b72e0a05ba7f10cfefff30031124eed20e0190627",
       "git_blob_sha1": "bb1033fcadc8c92ee054554a7c0d296c3a2f6724",
-      "bytes": 7597
+      "bytes": 7597,
+      "source_path": "files/copilot-in-action/launch_readiness_tracker.xlsx"
     },
     {
-      "path": "files/copilot-in-action/modern_trade_promotion_review.xlsx",
+      "path": "docs/public/downloads/copilot-in-action/modern_trade_promotion_review.xlsx",
       "sha256": "106f6c0ca328c25432f0d6921dffd31963d52d3cc4f0ae695bcfbee9940c0827",
       "git_blob_sha1": "0939a1e12cb6a24eb9e4f83bd9c1cf4c046b195d",
-      "bytes": 8333
+      "bytes": 8333,
+      "source_path": "files/copilot-in-action/modern_trade_promotion_review.xlsx"
     },
     {
-      "path": "files/copilot-in-action/new_product_launch_readiness.zip",
+      "path": "docs/public/downloads/copilot-in-action/new_product_launch_readiness.zip",
       "sha256": "b37fa4b121a10bed4434398d592bb09201cf6f68af0961b04414f72b1f8738d7",
       "git_blob_sha1": "a4a4a2c06d20e1a5d619938fe9dd4b65794108bb",
-      "bytes": 41876
+      "bytes": 41876,
+      "source_path": "files/copilot-in-action/new_product_launch_readiness.zip"
     },
     {
-      "path": "files/copilot-in-action/product_launch_brief.docx",
+      "path": "docs/public/downloads/copilot-in-action/product_launch_brief.docx",
       "sha256": "d07f26d9708877d51f98577764c2e69993c32d2d411271e8068030872bdf1ec1",
       "git_blob_sha1": "bc8378f081d9c628c12340070ae3719c24a05ce4",
-      "bytes": 37272
+      "bytes": 37272,
+      "source_path": "files/copilot-in-action/product_launch_brief.docx"
     },
     {
-      "path": "images/copilot/2025-08-24_20-26-10.png",
+      "path": "docs/public/images/copilot/2025-08-24_20-26-10.png",
       "sha256": "688546c62452621a03ceb3eb6a9ff284beaff5f3e1fcec88abafe4d615a00857",
       "git_blob_sha1": "cfc3e8e39d64710b8b14a72edfe1630970560358",
-      "bytes": 64328
+      "bytes": 64328,
+      "source_path": "images/copilot/2025-08-24_20-26-10.png"
     },
     {
-      "path": "images/copilot/2025-08-24_20-27-43.png",
+      "path": "docs/public/images/copilot/2025-08-24_20-27-43.png",
       "sha256": "986c3e070136e9163fca5d6bf90663efba2ababc9b83046e295ba6dd8d9da8b4",
       "git_blob_sha1": "e305d05c92bcde104691b94a617636384a18b2ca",
-      "bytes": 134884
+      "bytes": 134884,
+      "source_path": "images/copilot/2025-08-24_20-27-43.png"
     }
   ]
 }

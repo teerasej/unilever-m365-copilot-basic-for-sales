@@ -1,55 +1,49 @@
-# AI for Everyone — Copilot Basic (Free)
+# AI for Everyone — Copilot Basic learner site
 
-เราจะลองใช้ Copilot กับงานของทีม Sales ตั้งแต่สรุปการเยี่ยมลูกค้า ร่างข้อความ ไปจนถึงอ่านผล promotion และติดตามความพร้อมก่อน launch
+เว็บไซต์แบบฝึกสำหรับคลาส Unilever ผ่าน Montivory เนื้อหาหลักอยู่ใน `docs/` เพื่อแก้ไขเพียงชุดเดียว
 
-**Unilever · Online · 16 November 2026 · 13:00–16:00 น.**
+- [หน้า Workshop](docs/index.md)
+- [Agenda](docs/afternoon-agenda.md)
+- [ไฟล์ตัวอย่างและข้อความสำรอง](docs/resources/downloads.md)
+- [Source provenance](SOURCE.md)
 
-> **License:** กิจกรรมหลักออกแบบสำหรับ Copilot Chat แบบ Basic ด้วยบัญชีองค์กร โดยไม่ต้องซื้อ Microsoft 365 Copilot add-on เพิ่ม ต้องตรวจสอบสิทธิ์และการเปิดใช้งานของบัญชีผู้เรียนก่อนเริ่มอบรม
+## Local preview
 
-## เตรียมตัวก่อนเริ่ม Workshop
+```sh
+npm ci
+npm run docs:dev
+```
 
-1. ใช้คอมพิวเตอร์ เปิด Microsoft Teams และเว็บเบราว์เซอร์ไว้คู่กัน
-2. ลงชื่อเข้าใช้ [Microsoft 365 Copilot](https://m365copilot.com/) ด้วยบัญชีองค์กร แล้วลองเปิด Chat ใหม่
-3. [ดาวน์โหลดไฟล์สำหรับ Workshop](files/README.md) และแตกไฟล์ ZIP ก่อนเริ่มกิจกรรมที่ใช้ไฟล์
-4. ใช้ข้อมูลสมมติที่ให้ไว้ ไม่วางข้อมูลลูกค้าหรือข้อมูลภายในจริงลงในกิจกรรม
+ตรวจ production build และเปิด preview:
 
-> ถ้าแนบไฟล์ไม่ได้ ให้ใช้ [ข้อความตัวอย่างสำหรับวางใน Chat](files/README.md) แทนได้ ส่วน Prompt Gallery และ Pages มีทางเลือกในแต่ละ exercise หากบัญชียังใช้ไม่ได้
+```sh
+npm run docs:build
+npm run docs:preview
+```
 
-## Agenda
+ตรวจ path แบบ repository site ก่อนกำหนดปลายทางเผยแพร่:
 
-[ช่วงบ่าย: Copilot Basic (Free)](afternoon-agenda.md)
+```sh
+SITE_BASE=/ai-for-everyone-unilever-basic-online/ npm run docs:build
+```
 
-## เริ่มฝึกตามลำดับ
+ก่อนกลับมา preview ที่ root ให้รัน `npm run docs:build` โดยไม่ตั้ง `SITE_BASE` อีกครั้ง
 
-1. [ลองใช้ Copilot กับ 6 งานของทีม Sales](exercises/sales-quick-start.md)
-2. [จากบันทึกเยี่ยมลูกค้า สู่รายงานและ Email](exercises/sales-communication.md)
-3. [อ่านผล Promotion และเตรียม Performance Brief](exercises/copilot-in-action/modern-trade-promotion-review.md)
-4. [ตรวจ Launch Readiness และเตรียม Action Tracker](exercises/copilot-in-action/new-product-launch-readiness.md)
-5. [ตรวจข้อมูลและปรับคำตอบให้พร้อมใช้](exercises/refine-and-verify.md)
-6. [บันทึก Prompt ไว้ใช้กับงานครั้งถัดไป](exercises/copilot-prompt-gallery.md)
-7. [จัดผลลัพธ์ที่ตรวจแล้วใน Copilot Pages](exercises/copilot-pages.md)
+คำสั่งจะแสดง local URL ที่ใช้ได้จริงในเครื่อง สถานะการ preview และผลตรวจสรุปใน instructor notes ของโครงการแม่ ไม่มีการเผยแพร่ GitHub Pages หรือสร้าง remote ในงานนี้
 
-## ลองต่อหลังคลาส
+## ดูแลเนื้อหา
 
-- [สรุป Customer Feedback และประเด็นที่ต้องส่งต่อ](exercises/copilot-in-action/customer-feedback-issue-response.md)
-- [สร้างภาพประกอบแคมเปญด้วย Copilot Create](exercises/copilot-create-mode.md)
-- PowerPoint-ready outline และ Excel-ready tables อยู่ในส่วนฝึกต่อของ Promotion Review และ Launch Readiness
+- แก้ข้อความผู้เรียนใน `docs/` และรักษาข้อมูลสมมติ/ข้อจำกัดของแต่ละไฟล์
+- เก็บไฟล์สำหรับดาวน์โหลดใน `docs/public/downloads/` และใช้ path ที่รองรับ site base
+- Sidebar, Practice links และลำดับ exercise ใช้ navigation definition ชุดเดียวใน theme configuration
+- Artwork ต้นฉบับ บันทึกการสร้างและ instructor notes อยู่ภายนอก learner repository
+- ตรวจ build, links, Practice anchors, downloads และ mobile ก่อนส่งต่อ
 
-## ไฟล์สำหรับฝึก
+## Site toolchain
 
-- [ไฟล์ตัวอย่างและข้อความสำรอง](files/README.md)
-- [แผนที่ Business Scenarios](exercises/copilot-in-action/copilot-in-action.md)
+ใช้ VitePress 1.6.4 และ Vue ตาม lockfile มี scoped override เป็น Vite 6.4.6 เพื่อแก้ dependency advisories ของรุ่นเดิม ตรวจ compatibility และ production build ทั้ง root/prefix แล้ว หากอัพเดต dependencies ให้ตรวจ override นี้อีกครั้งด้วย
 
-เมื่อจบคลาส ให้เลือก 1 งานที่อยากนำไปลองใช้ต่อ เก็บ Prompt และผลลัพธ์ที่ตรวจแล้วไว้เป็นตัวอย่างของเรานะครับ
-
-## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
-
-- [YouTube](https://www.youtube.com/teerasej)
-- [คุยกันบน Facebook](https://www.facebook.com/teerasej)
-- [ทวิตกันบน Twitter](https://twitter.com/teerasej)
-- [ที่มาของชุดฝึกและรายการปรับปรุง](SOURCE.md)
-
----
+## Credits
 
 All rights reserved by [Amaround Co., Ltd.](https://www.nextflow.in.th/)
 
