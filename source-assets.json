@@ -49,20 +49,6 @@
       "git_blob_sha1": "bc8378f081d9c628c12340070ae3719c24a05ce4",
       "bytes": 37272,
       "source_path": "files/copilot-in-action/product_launch_brief.docx"
-    },
-    {
-      "path": "docs/public/images/copilot/2025-08-24_20-26-10.png",
-      "sha256": "688546c62452621a03ceb3eb6a9ff284beaff5f3e1fcec88abafe4d615a00857",
-      "git_blob_sha1": "cfc3e8e39d64710b8b14a72edfe1630970560358",
-      "bytes": 64328,
-      "source_path": "images/copilot/2025-08-24_20-26-10.png"
-    },
-    {
-      "path": "docs/public/images/copilot/2025-08-24_20-27-43.png",
-      "sha256": "986c3e070136e9163fca5d6bf90663efba2ababc9b83046e295ba6dd8d9da8b4",
-      "git_blob_sha1": "e305d05c92bcde104691b94a617636384a18b2ca",
-      "bytes": 134884,
-      "source_path": "images/copilot/2025-08-24_20-27-43.png"
     }
   ]
 }

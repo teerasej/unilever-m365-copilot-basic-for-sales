@@ -26,7 +26,7 @@ next:
 3. [ดาวน์โหลดไฟล์สำหรับ Workshop](resources/downloads.md) และแตกไฟล์ ZIP ก่อนเริ่มกิจกรรมที่ใช้ไฟล์
 4. ใช้ข้อมูลสมมติที่ให้ไว้ ไม่วางข้อมูลลูกค้าหรือข้อมูลภายในจริงลงในกิจกรรม
 
-> ถ้าแนบไฟล์ไม่ได้ ให้ใช้ [ข้อความตัวอย่างสำหรับวางใน Chat](resources/downloads.md) แทนได้ ส่วน Prompt Gallery และ Pages มีทางเลือกในแต่ละ exercise หากบัญชียังใช้ไม่ได้
+> ถ้าแนบไฟล์ไม่ได้ ให้ใช้ [ข้อความตัวอย่างสำหรับวางใน Chat](resources/downloads.md) แทนได้
 
 ## Agenda
 
@@ -34,21 +34,19 @@ next:
 
 ## เริ่มฝึกตามลำดับ
 
-ฝึกในคลาส 16 Practices ตามลำดับด้านล่าง ส่วนอีก 20 Practices มีป้าย **ลองต่อหลังคลาส** เก็บไว้ใช้ต่อได้
+ฝึกในคลาส 14 Practices ตามลำดับด้านล่าง ส่วนอีก 17 Practices มีป้าย **ลองต่อหลังคลาส** เก็บไว้ใช้ต่อได้
 
 1. [ลองใช้ Copilot กับ 6 งานของทีม Sales](exercises/sales-quick-start.md)
 2. [จากบันทึกเยี่ยมลูกค้า สู่รายงานและ Email](exercises/sales-communication.md) — Practice 1–2
 3. [อ่านผล Promotion และเตรียม Performance Brief](exercises/copilot-in-action/modern-trade-promotion-review.md) — Practice 1 และ 3
 4. [ตรวจ Launch Readiness และเตรียม Action Tracker](exercises/copilot-in-action/new-product-launch-readiness.md) — Practice 2–3
 5. [ตรวจข้อมูลและปรับคำตอบให้พร้อมใช้](exercises/refine-and-verify.md) — Practice 1–2 กับผลลัพธ์ที่เลือก 1 ชุด
-6. [บันทึก Prompt ไว้ใช้กับงานครั้งถัดไป](exercises/copilot-prompt-gallery.md) — Practice 1
-7. [จัดผลลัพธ์ที่ตรวจแล้วใน Copilot Pages](exercises/copilot-pages.md) — Practice 1
 
 ## ลองต่อหลังคลาส
 
 - [สรุป Customer Feedback และประเด็นที่ต้องส่งต่อ](exercises/copilot-in-action/customer-feedback-issue-response.md)
 - [สร้างภาพประกอบแคมเปญด้วย Copilot Create](exercises/copilot-create-mode.md)
-- ปรับโทน Email, วิเคราะห์ Product และสัญญาณ promotion, สรุปบริบท launch และแก้ไข Pages เพิ่มเติม
+- ปรับโทน Email, วิเคราะห์ Product และสัญญาณ promotion, สรุปบริบท launch
 - PowerPoint-ready outline และ Excel-ready tables อยู่ในส่วนฝึกต่อของ Promotion Review และ Launch Readiness
 
 ## ไฟล์สำหรับฝึก
@@ -56,7 +54,7 @@ next:
 - [ไฟล์ตัวอย่างและข้อความสำรอง](resources/downloads.md)
 - [แผนที่ Business Scenarios](exercises/copilot-in-action/copilot-in-action.md)
 
-เมื่อจบคลาส ให้เลือก 1 งานที่อยากนำไปลองใช้ต่อ เก็บ Prompt และผลลัพธ์ที่ตรวจแล้วไว้เป็นตัวอย่างของเรานะครับ
+เมื่อจบคลาส ให้เลือก 1 งานที่อยากนำไปลองใช้ต่อ เก็บผลลัพธ์ที่ตรวจแล้วไว้เป็นตัวอย่างของเรานะครับ
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 

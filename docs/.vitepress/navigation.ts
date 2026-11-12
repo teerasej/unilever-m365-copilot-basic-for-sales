@@ -20,12 +20,6 @@ export const exercises: Exercise[] = [
   { id: 'verify', title: 'ตรวจข้อมูลและปรับคำตอบให้พร้อมใช้', short: '5. ตรวจและปรับผลลัพธ์', route: '/exercises/refine-and-verify', practices: [
     { label: '1. เทียบคำตอบกับหลักฐาน' }, { label: '2. ปรับให้หัวหน้าทีมอ่าน' }
   ] },
-  { id: 'gallery', title: 'บันทึก Sales Prompt ไว้ใช้ซ้ำ', short: '6. เก็บ Prompt ใช้ซ้ำ', route: '/exercises/copilot-prompt-gallery', practices: [
-    { label: '1. บันทึกและเรียกใช้ Prompt' }, { label: '2. เตรียมแชร์ Prompt', optional: true }
-  ] },
-  { id: 'pages', title: 'จัดระเบียบ Launch Action Tracker ด้วย Copilot Pages', short: '7. จัดผลลัพธ์ด้วย Pages', route: '/exercises/copilot-pages', practices: [
-    { label: '1. เก็บ Tracker เป็น Page' }, { label: '2. เพิ่มจุดที่ต้องยืนยัน', optional: true }, { label: '3. ตรวจทางเลือกแชร์', optional: true }
-  ] },
   { id: 'feedback', title: 'Customer Feedback และการส่งต่อ', short: 'เพิ่มเติม: Customer Feedback', optional: true, route: '/exercises/copilot-in-action/customer-feedback-issue-response', practices: [
     { label: '1. Feedback Themes', optional: true }, { label: '2. Response Guideline', optional: true }, { label: '3. ข้อความภายใน', optional: true },
     { label: '4. Issue Priority', optional: true }, { label: '5. Action Items', optional: true }, { label: '6. Word-ready Summary', optional: true }

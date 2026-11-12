@@ -40,13 +40,13 @@ SITE_BASE=/unilever-m365-copilot-basic-for-sales/ npm run docs:build
 
 ## ดูแลเนื้อหา
 
-คลาส 13:00–16:00 ใช้ 16 Practices และมีอีก 20 Practices สำหรับลองต่อหลังคลาส ดูเวลาและลำดับล่าสุดใน Agenda ส่วนรายละเอียดการสอนอยู่ใน instructor notes ของโครงการแม่
+คลาส 13:00–16:00 ใช้ 14 Practices และมีอีก 17 Practices สำหรับลองต่อหลังคลาส ดูเวลาและลำดับล่าสุดใน Agenda ส่วนรายละเอียดการสอนอยู่ใน instructor notes ของโครงการแม่
 
 - แก้ข้อความผู้เรียนใน `docs/` และรักษาข้อมูลสมมติ/ข้อจำกัดของแต่ละไฟล์
 - เก็บไฟล์สำหรับดาวน์โหลดใน `docs/public/downloads/` และใช้ path ที่รองรับ site base
 - Sidebar, Practice links และลำดับ exercise ใช้ navigation definition ชุดเดียวใน theme configuration
 - Artwork ต้นฉบับ บันทึกการสร้างและ instructor notes อยู่ภายนอก learner repository
-- ภาพเปิดหน้าแรกและเก้า exercise ใช้ `PageIllustration` ร่วมกัน ไฟล์ WebP อยู่ใน `docs/public/images/pages/` โดยแยกจากภาพของแต่ละ Practice
+- ภาพเปิดหน้าแรกและเจ็ด exercise ใช้ `PageIllustration` ร่วมกัน ไฟล์ WebP อยู่ใน `docs/public/images/pages/` โดยแยกจากภาพของแต่ละ Practice
 - ตรวจ build, links, Practice anchors, downloads และ mobile ก่อนส่งต่อ
 
 ## Site toolchain

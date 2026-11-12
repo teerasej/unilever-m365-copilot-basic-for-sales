@@ -3,8 +3,8 @@ prev:
   text: "Launch Readiness"
   link: /exercises/copilot-in-action/new-product-launch-readiness
 next:
-  text: "บันทึก Sales Prompt"
-  link: /exercises/copilot-prompt-gallery
+  text: "Agenda และ Wrap up"
+  link: /afternoon-agenda
 ---
 
 # Exercise: ตรวจและปรับผลลัพธ์ก่อนใช้งาน
@@ -98,4 +98,4 @@ next:
 - ผลตรวจหลักฐาน 1 ชุด
 - ข้อความสำหรับหัวหน้าทีม Sales ที่ปรับแล้ว 1 ฉบับ
 
-เราใช้ AI ช่วยตรวจได้ แต่ยังต้องเป็นคนตัดสินว่าข้อมูลพร้อมใช้หรือไม่ จากนั้นเก็บ prompt ที่ได้ผลไว้ใช้ซ้ำกันครับ
+เราใช้ AI ช่วยตรวจได้ แต่ยังต้องเป็นคนตัดสินว่าข้อมูลพร้อมใช้หรือไม่
