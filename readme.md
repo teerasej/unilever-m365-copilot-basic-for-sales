@@ -21,17 +21,26 @@ npm run docs:build
 npm run docs:preview
 ```
 
-ตรวจ path แบบ repository site ก่อนกำหนดปลายทางเผยแพร่:
+ตรวจ path สำหรับ GitHub Pages:
 
 ```sh
-SITE_BASE=/ai-for-everyone-unilever-basic-online/ npm run docs:build
+SITE_BASE=/unilever-m365-copilot-basic-for-sales/ npm run docs:build
 ```
 
 ก่อนกลับมา preview ที่ root ให้รัน `npm run docs:build` โดยไม่ตั้ง `SITE_BASE` อีกครั้ง
 
-คำสั่งจะแสดง local URL ที่ใช้ได้จริงในเครื่อง สถานะการ preview และผลตรวจสรุปใน instructor notes ของโครงการแม่ ไม่มีการเผยแพร่ GitHub Pages หรือสร้าง remote ในงานนี้
+คำสั่งจะแสดง local URL ที่ใช้ได้จริงในเครื่อง สถานะการ preview และผลตรวจสรุปใน instructor notes ของโครงการแม่
+
+## GitHub Pages
+
+- เว็บไซต์: [Copilot Basic สำหรับทีม Sales](https://teerasej.github.io/unilever-m365-copilot-basic-for-sales/)
+- Repository: `teerasej/unilever-m365-copilot-basic-for-sales`
+- Push ไปที่ `main` จะ build และเผยแพร่ผ่าน GitHub Actions โดยใช้ไฟล์จาก `docs/.vitepress/dist` เท่านั้น
+- Local preview ยังคงใช้ `/` ส่วน workflow กำหนด `SITE_BASE` สำหรับเว็บไซต์ที่เผยแพร่
 
 ## ดูแลเนื้อหา
+
+คลาส 13:00–16:00 ใช้ 16 Practices และมีอีก 20 Practices สำหรับลองต่อหลังคลาส ดูเวลาและลำดับล่าสุดใน Agenda ส่วนรายละเอียดการสอนอยู่ใน instructor notes ของโครงการแม่
 
 - แก้ข้อความผู้เรียนใน `docs/` และรักษาข้อมูลสมมติ/ข้อจำกัดของแต่ละไฟล์
 - เก็บไฟล์สำหรับดาวน์โหลดใน `docs/public/downloads/` และใช้ path ที่รองรับ site base

@@ -32,18 +32,21 @@ next:
 
 ## เริ่มฝึกตามลำดับ
 
+ฝึกในคลาส 16 Practices ตามลำดับด้านล่าง ส่วนอีก 20 Practices มีป้าย **ลองต่อหลังคลาส** เก็บไว้ใช้ต่อได้
+
 1. [ลองใช้ Copilot กับ 6 งานของทีม Sales](exercises/sales-quick-start.md)
-2. [จากบันทึกเยี่ยมลูกค้า สู่รายงานและ Email](exercises/sales-communication.md)
-3. [อ่านผล Promotion และเตรียม Performance Brief](exercises/copilot-in-action/modern-trade-promotion-review.md)
-4. [ตรวจ Launch Readiness และเตรียม Action Tracker](exercises/copilot-in-action/new-product-launch-readiness.md)
-5. [ตรวจข้อมูลและปรับคำตอบให้พร้อมใช้](exercises/refine-and-verify.md)
-6. [บันทึก Prompt ไว้ใช้กับงานครั้งถัดไป](exercises/copilot-prompt-gallery.md)
-7. [จัดผลลัพธ์ที่ตรวจแล้วใน Copilot Pages](exercises/copilot-pages.md)
+2. [จากบันทึกเยี่ยมลูกค้า สู่รายงานและ Email](exercises/sales-communication.md) — Practice 1–2
+3. [อ่านผล Promotion และเตรียม Performance Brief](exercises/copilot-in-action/modern-trade-promotion-review.md) — Practice 1 และ 3
+4. [ตรวจ Launch Readiness และเตรียม Action Tracker](exercises/copilot-in-action/new-product-launch-readiness.md) — Practice 2–3
+5. [ตรวจข้อมูลและปรับคำตอบให้พร้อมใช้](exercises/refine-and-verify.md) — Practice 1–2 กับผลลัพธ์ที่เลือก 1 ชุด
+6. [บันทึก Prompt ไว้ใช้กับงานครั้งถัดไป](exercises/copilot-prompt-gallery.md) — Practice 1
+7. [จัดผลลัพธ์ที่ตรวจแล้วใน Copilot Pages](exercises/copilot-pages.md) — Practice 1
 
 ## ลองต่อหลังคลาส
 
 - [สรุป Customer Feedback และประเด็นที่ต้องส่งต่อ](exercises/copilot-in-action/customer-feedback-issue-response.md)
 - [สร้างภาพประกอบแคมเปญด้วย Copilot Create](exercises/copilot-create-mode.md)
+- ปรับโทน Email, วิเคราะห์ Product และสัญญาณ promotion, สรุปบริบท launch และแก้ไข Pages เพิ่มเติม
 - PowerPoint-ready outline และ Excel-ready tables อยู่ในส่วนฝึกต่อของ Promotion Review และ Launch Readiness
 
 ## ไฟล์สำหรับฝึก

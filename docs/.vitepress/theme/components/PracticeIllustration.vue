@@ -2,10 +2,12 @@
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
 import artwork from '../practice-art.json'
+import { practiceModes } from '../../navigation'
 
 type Art = { src: string; width: number; height: number; alt: string; variants: { src: string; width: number }[] }
 const props = defineProps<{ id: string }>()
 const art = computed(() => (artwork as Record<string, Art>)[props.id])
+const mode = computed(() => practiceModes[props.id])
 const compact = computed(() => props.id.startsWith('quick-'))
 const first = computed(() => /-01$/.test(props.id))
 const srcset = computed(() => art.value?.variants.map(v => `${withBase(v.src)} ${v.width}w`).join(', '))
@@ -19,4 +21,7 @@ const srcset = computed(() => art.value?.variants.map(v => `${withBase(v.src)} $
       :loading="first ? 'eager' : 'lazy'" decoding="async"
     >
   </figure>
+  <p v-if="mode" class="practice-mode" :data-practice-mode="mode">
+    {{ mode === 'live' ? 'ฝึกในคลาส' : 'ลองต่อหลังคลาส' }}
+  </p>
 </template>

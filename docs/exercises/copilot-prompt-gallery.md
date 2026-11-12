@@ -13,7 +13,9 @@ next:
 
 ## Exercise Overview
 
-เราจะเก็บ prompt ที่ทดลองและตรวจแล้วจากงาน Sales เพื่อกลับมาใช้กับงานครั้งต่อไป ใช้เวลาประมาณ 7 นาที ส่วนการแชร์เป็นกิจกรรมเพิ่มเติม
+เราจะเก็บ prompt ที่ทดลองและตรวจแล้วจากงาน Sales เพื่อกลับมาใช้กับงานครั้งต่อไป
+
+**ฝึกในคลาส:** Practice 1 · **ลองต่อหลังคลาส:** Practice 2
 
 > **License:** เส้นทางหลักใช้ prompt ที่เรามีอยู่แล้ว ไม่ต้องเพิ่ม Microsoft 365 Copilot add-on license เพื่อเก็บเป็นข้อความ ส่วน **Prompt Gallery**, **Save prompt** และการแชร์ **ต้องตรวจสอบก่อนเริ่มอบรม** ตามบัญชีและ policy ขององค์กร
 
@@ -24,7 +26,7 @@ next:
 
 <span id="practice-1"></span>
 
-## Practice 1: บันทึกและเรียกใช้ Sales Prompt (7 นาที)
+## Practice 1: บันทึกและเรียกใช้ Sales Prompt {#practice-1-บันทึกและเรียกใช้-sales-prompt-7-นาที}
 
 <PracticeIllustration id="gallery-01" />
 

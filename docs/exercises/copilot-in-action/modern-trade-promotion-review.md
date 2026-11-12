@@ -27,13 +27,13 @@ next:
 >
 > ข้อมูลทั้งหมดเป็นเรื่องสมมติ ไฟล์ไม่มีปี สกุลเงิน retailer ชื่อ campaign หรือสาเหตุที่แท้จริง อย่าให้ Copilot เติมข้อมูลเหล่านี้
 
-## Core: เตรียม Promotion Performance Brief (25 นาที)
+## Core: เตรียม Promotion Performance Brief {#core-เตรียม-promotion-performance-brief-25-นาที}
 
-ทำ Practice 1–3 ตามลำดับ แล้วเก็บส่วนเสริมไว้ลองภายหลัง
+**ฝึกในคลาส:** Practice 1 และ 3 · **ลองต่อหลังคลาส:** Practice 2 และ 4–6
 
 <span id="practice-1"></span>
 
-## Practice 1: สรุปยอด promotion ตาม channel (8 นาที)
+## Practice 1: สรุปยอด promotion ตาม channel {#practice-1-สรุปยอด-promotion-ตาม-channel-8-นาที}
 
 <PracticeIllustration id="promo-01" />
 
@@ -61,7 +61,7 @@ next:
 
 <span id="practice-2"></span>
 
-## Practice 2: หา product และสัญญาณที่ต้องตรวจสอบ (9 นาที)
+## Practice 2: หา product และสัญญาณที่ต้องตรวจสอบ {#practice-2-หา-product-และสัญญาณที่ต้องตรวจสอบ-9-นาที}
 
 <PracticeIllustration id="promo-02" />
 
@@ -97,7 +97,7 @@ next:
 
 <span id="practice-3"></span>
 
-## Practice 3: เตรียม performance brief (8 นาที)
+## Practice 3: เตรียม performance brief {#practice-3-เตรียม-performance-brief-8-นาที}
 
 <PracticeIllustration id="promo-03" />
 
@@ -108,14 +108,15 @@ next:
 1. ใช้ Chat เดิม แล้วส่ง prompt
 
    ```text
-   ใช้เฉพาะข้อมูลต้นทางและค่าที่ตรวจแก้แล้วใน Chat นี้
-   สร้าง Promotion Performance Brief ภาษาไทยไม่เกิน 1 หน้า สำหรับหัวหน้าทีม Sales
-   โครงสร้าง: Executive summary 3 bullets | ตาราง channel จากผลที่ตรวจแล้ว | ประเด็นที่ต้องถามทีม 3 ข้อ | Next step
-   ระบุข้อมูลที่ยังไม่ทราบ และใช้ [ต้องระบุ] สำหรับ Owner และ Due
-   แยก Fact | Interpretation | Information needed ไม่แต่งสาเหตุหรือรายละเอียด campaign
+   ใช้เฉพาะตาราง Channel และยอดรวมที่ตรวจแล้วก่อนหน้าใน Chat นี้
+   สร้าง Promotion Performance Brief ภาษาไทยแบบสั้น สำหรับหัวหน้าทีม Sales
+   โครงสร้าง: สรุปยอดไม่เกิน 3 bullets | ตาราง Channel | ข้อมูลที่ยังไม่ทราบ | Next step
+   แยกยอดที่ยืนยันแล้วออกจากคำถามที่ต้องถามทีม
+   ใช้ [ต้องระบุ] สำหรับ Owner และ Due ไม่แต่งสาเหตุหรือรายละเอียด campaign
+   ไม่ต้องจัดอันดับ Product หรือวิเคราะห์ stock, margin และ uplift เพิ่ม
    ```
 
-2. ตรวจตัวเลขใน brief กับผลที่ตรวจแล้วจาก Practice 1–2
+2. ตรวจตัวเลขใน brief กับตาราง Channel และยอดรวมที่ตรวจแล้วจาก Practice 1
 3. คัดลอก brief เก็บในเอกสารของเรา ยังไม่ต้องส่งข้อความให้ใคร
 
 #### Checkpoint
@@ -124,7 +125,7 @@ next:
 
 ## ส่วนเสริม: ใช้ผลวิเคราะห์สื่อสารต่อ
 
-ทำหลังจบ Core ได้ โดยใช้ผลที่ตรวจแล้วจาก Practice 1–3
+ใช้ brief ที่ตรวจแล้วจาก Practice 1 และ 3 ส่วนการจัดอันดับ Product และวิเคราะห์สัญญาณเพิ่มเติมอยู่ใน Practice 2
 
 <span id="practice-4"></span>
 
@@ -186,7 +187,7 @@ next:
 
 #### Steps
 
-1. ใช้ Chat เดิม แล้วส่ง prompt
+1. ทำ Practice 2 ให้ครบและตรวจผลก่อน แล้วใช้ Chat เดิมส่ง prompt
 
    ```text
    ใช้เฉพาะข้อมูลต้นทางและผลที่ตรวจแล้วใน Chat นี้
@@ -212,8 +213,8 @@ next:
 
 ## Expected Output
 
-- **Core:** Promotion Performance Brief ที่ตรวจตัวเลขแล้ว 1 ชุด
-- **ส่วนเสริม:** แบบร่าง Teams, brief ตามผู้รับ และ PowerPoint-ready outline
+- **ฝึกในคลาส:** ตารางยอดตาม Channel และ Promotion Performance Brief ที่ตรวจแล้ว 1 ชุด
+- **ลองต่อหลังคลาส:** Product ranking, สัญญาณที่ต้องตรวจต่อ, แบบร่าง Teams, brief ตามผู้รับ และ PowerPoint-ready outline
 
 ## Summary
 

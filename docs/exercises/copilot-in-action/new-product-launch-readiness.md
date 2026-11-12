@@ -27,13 +27,13 @@ next:
 >
 > ข้อมูลทั้งหมดเป็นเรื่องสมมติ ไม่ใช่ brand, launch date, budget หรือ retailer จริง ใน tracker ไม่มี Due date จึงต้องใช้ [ต้องระบุ]
 
-## Core: เตรียม Launch Action Tracker (25 นาที)
+## Core: เตรียม Launch Action Tracker {#core-เตรียม-launch-action-tracker-25-นาที}
 
-ทำ Practice 1–3 ตามลำดับ แล้วเก็บส่วนเสริมไว้ลองภายหลัง
+**ฝึกในคลาส:** Practice 2–3 · **ลองต่อหลังคลาส:** Practice 1 และ 4–7
 
 <span id="practice-1"></span>
 
-## Practice 1: สรุป launch context (8 นาที)
+## Practice 1: สรุป launch context {#practice-1-สรุป-launch-context-8-นาที}
 
 <PracticeIllustration id="launch-01" />
 
@@ -60,7 +60,7 @@ next:
 
 <span id="practice-2"></span>
 
-## Practice 2: ตรวจ readiness และประเด็นติดขัด (9 นาที)
+## Practice 2: ตรวจ readiness และประเด็นติดขัด {#practice-2-ตรวจ-readiness-และประเด็นติดขัด-9-นาที}
 
 <PracticeIllustration id="launch-02" />
 
@@ -68,11 +68,11 @@ next:
 
 #### Steps
 
-1. ใช้ Chat เดิม แนบ `launch_readiness_tracker.xlsx` เพิ่ม หรือวางส่วน tracker จากข้อมูลย่อ
+1. เปิด Chat ใหม่ แล้วแนบทั้ง `product_launch_brief.docx` และ `launch_readiness_tracker.xlsx` หรือวางข้อความทั้ง brief และ tracker จากข้อมูลย่อ
 2. ส่ง prompt
 
    ```text
-   ใช้เฉพาะ brief และ sheet Readiness Tracker ที่แนบ หรือข้อมูลย่อชุดเดิม
+   ใช้เฉพาะ brief และ sheet Readiness Tracker ที่แนบ หรือข้อมูลย่อที่ฉันวาง
    สรุปจำนวน workstreams ตาม Status โดยนับแต่ละแถวงานหนึ่งครั้ง
    ระบุทุกรายการที่ Risk Level เป็น High หรือ Status เป็น Blocked
    จัดเป็น Workstream | Status | Risk Level | Dependency | ประเด็นที่ต้องยืนยัน
@@ -89,7 +89,7 @@ next:
 
 <span id="practice-3"></span>
 
-## Practice 3: สร้าง action tracker (8 นาที)
+## Practice 3: สร้าง action tracker {#practice-3-สร้าง-action-tracker-8-นาที}
 
 <PracticeIllustration id="launch-03" />
 
@@ -117,7 +117,7 @@ next:
 
 ## ส่วนเสริม: เตรียมงานประชุมและสื่อสารต่อ
 
-ทำหลังจบ Core โดยใช้ผลที่ตรวจแล้วจาก Practice 1–3
+ใช้ผลที่ตรวจแล้วจาก Practice 2–3 โดยมี brief และ tracker ต้นทางอยู่ใน Chat เดิม
 
 <span id="practice-4"></span>
 
@@ -228,8 +228,8 @@ next:
 
 ## Expected Output
 
-- **Core:** Launch action tracker ที่ตรวจแล้ว 1 ชุด พร้อมสรุปบริบทและ readiness
-- **ส่วนเสริม:** แบบร่าง Teams, meeting brief, follow-up email และ Excel-ready launch pack
+- **ฝึกในคลาส:** สรุป readiness และ Launch action tracker ที่ตรวจแล้ว 1 ชุด
+- **ลองต่อหลังคลาส:** สรุปบริบท, แบบร่าง Teams, meeting brief, follow-up email และ Excel-ready launch pack
 
 ## Summary
 
