@@ -9,6 +9,8 @@ next:
 
 # Exercise: จัดระเบียบ Launch Action Tracker ด้วย Copilot Pages
 
+<PageIllustration id="pages" />
+
 [กลับไปหน้า Workshop](../index.md)
 
 ## Exercise Overview

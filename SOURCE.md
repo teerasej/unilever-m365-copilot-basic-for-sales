@@ -54,3 +54,7 @@ The other 20 Practices remain available after class. The Promotion brief now use
 ## Publication configuration — 12 November 2026
 
 Authorized destination: `teerasej/unilever-m365-copilot-basic-for-sales`, served at `https://teerasej.github.io/unilever-m365-copilot-basic-for-sales/`. The `main` branch deploys through GitHub Actions using the repository-prefixed base. Local preview defaults to `/`. Only the learner site build is deployed; the parent project's private notes, presentation, artwork originals and review records are excluded.
+
+## Page overview illustrations — 12 November 2026
+
+Ten new generated 2D banners introduce the homepage and nine exercise pages. The homepage banner follows the introduction and Montivory attribution; exercise banners follow their page titles. Responsive WebP variants live under `docs/public/images/pages/` and use one shared component with Thai alt text. Untouched originals and exact generation prompts remain in the parent project's private asset library. The 36 Practice illustrations, learner wording, schedule and review deck are unchanged.

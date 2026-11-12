@@ -47,6 +47,16 @@
 .vp-doc a, .course-footer a { text-underline-offset: 3px; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--vp-c-brand-2); outline-offset: 4px; border-radius: 3px; }
 
+.page-illustration {
+  margin: 24px 0;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2eeeb;
+}
+.page-illustration img { display: block; width: 100%; height: auto; object-fit: contain; margin: 0; border-radius: 0; }
+
 .practice-illustration {
   margin: 18px 0 22px;
   width: 100%;

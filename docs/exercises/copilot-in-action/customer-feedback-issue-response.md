@@ -9,6 +9,8 @@ next:
 
 # Exercise: Copilot in Action - Customer Feedback And Issue Response Summary
 
+<PageIllustration id="feedback" />
+
 [กลับไปหน้า Workshop](../../index.md)
 
 ## Exercise Overview

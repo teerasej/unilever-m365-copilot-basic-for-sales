@@ -1,0 +1,162 @@
+{
+  "home": {
+    "src": "/images/pages/home-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "พื้นที่ทำงาน Sales เชื่อมบันทึกเยี่ยมลูกค้า ข้อความ ผลโปรโมชันและงานที่ตรวจแล้ว",
+    "variants": [
+      {
+        "src": "/images/pages/home-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/home-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "quick": {
+    "src": "/images/pages/quick-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "งาน Sales หกแบบรอบพื้นที่ทำงานเดียวกัน",
+    "variants": [
+      {
+        "src": "/images/pages/quick-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/quick-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "comm": {
+    "src": "/images/pages/comm-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "บันทึกเยี่ยมร้านเปลี่ยนเป็นรายงานและข้อความถึงผู้ซื้อ",
+    "variants": [
+      {
+        "src": "/images/pages/comm-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/comm-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "promo": {
+    "src": "/images/pages/promo-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ข้อมูลจากช่องทางขายหลายแบบผ่านการตรวจแล้วสรุปเป็น brief",
+    "variants": [
+      {
+        "src": "/images/pages/promo-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/promo-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "launch": {
+    "src": "/images/pages/launch-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "งานหลายส่วนเชื่อมเป็นรายการตรวจความพร้อมและงานติดตามก่อน launch",
+    "variants": [
+      {
+        "src": "/images/pages/launch-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/launch-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "verify": {
+    "src": "/images/pages/verify-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "ตรวจเอกสารต้นทางเทียบกับสรุปที่ปรับแล้ว",
+    "variants": [
+      {
+        "src": "/images/pages/verify-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/verify-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "gallery": {
+    "src": "/images/pages/gallery-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดเก็บ prompt ที่เลือกไว้ในชุดสำหรับใช้ซ้ำ",
+    "variants": [
+      {
+        "src": "/images/pages/gallery-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/gallery-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "pages": {
+    "src": "/images/pages/pages-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดตารางงานที่ตรวจแล้วไว้ในเอกสารสำหรับแก้ไขและใช้ต่อ",
+    "variants": [
+      {
+        "src": "/images/pages/pages-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/pages-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "feedback": {
+    "src": "/images/pages/feedback-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "จัดกลุ่ม feedback และส่งต่อให้ทีมภายในตรวจสอบ",
+    "variants": [
+      {
+        "src": "/images/pages/feedback-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/feedback-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "create": {
+    "src": "/images/pages/create-1536.webp",
+    "width": 2172,
+    "height": 724,
+    "alt": "สินค้าที่ไม่มีแบรนด์กับองค์ประกอบภาพสำหรับแคมเปญภายใน",
+    "variants": [
+      {
+        "src": "/images/pages/create-768.webp",
+        "width": 768
+      },
+      {
+        "src": "/images/pages/create-1536.webp",
+        "width": 1536
+      }
+    ]
+  }
+}

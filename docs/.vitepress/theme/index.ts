@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import SiteFooter from './components/SiteFooter.vue'
 import SidebarBehavior from './components/SidebarBehavior.vue'
 import PracticeIllustration from './components/PracticeIllustration.vue'
+import PageIllustration from './components/PageIllustration.vue'
 import './style.css'
 
 export default {
@@ -13,5 +14,6 @@ export default {
   }),
   enhanceApp({ app }) {
     app.component('PracticeIllustration', PracticeIllustration)
+    app.component('PageIllustration', PageIllustration)
   }
 }

@@ -11,6 +11,8 @@ next:
 
 **เนื้อหาชุดนี้คัดสรรและปรับสำหรับ Montivory เพื่อใช้ในการอบรม Unilever**
 
+<PageIllustration id="home" />
+
 [เริ่ม 6 งาน Sales](exercises/sales-quick-start.md) · [ดาวน์โหลดไฟล์](resources/downloads.md)
 
 **Unilever · Online · 16 November 2026 · 13:00–16:00 น.**

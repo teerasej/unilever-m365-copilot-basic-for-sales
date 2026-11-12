@@ -46,6 +46,7 @@ SITE_BASE=/unilever-m365-copilot-basic-for-sales/ npm run docs:build
 - เก็บไฟล์สำหรับดาวน์โหลดใน `docs/public/downloads/` และใช้ path ที่รองรับ site base
 - Sidebar, Practice links และลำดับ exercise ใช้ navigation definition ชุดเดียวใน theme configuration
 - Artwork ต้นฉบับ บันทึกการสร้างและ instructor notes อยู่ภายนอก learner repository
+- ภาพเปิดหน้าแรกและเก้า exercise ใช้ `PageIllustration` ร่วมกัน ไฟล์ WebP อยู่ใน `docs/public/images/pages/` โดยแยกจากภาพของแต่ละ Practice
 - ตรวจ build, links, Practice anchors, downloads และ mobile ก่อนส่งต่อ
 
 ## Site toolchain

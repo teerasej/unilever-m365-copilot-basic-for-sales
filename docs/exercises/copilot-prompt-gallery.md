@@ -9,6 +9,8 @@ next:
 
 # Exercise: บันทึก Sales Prompt ไว้ใช้ซ้ำ
 
+<PageIllustration id="gallery" />
+
 [กลับไปหน้า Workshop](../index.md)
 
 ## Exercise Overview

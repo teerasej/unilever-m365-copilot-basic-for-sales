@@ -9,6 +9,8 @@ next:
 
 # Exercise: Copilot in Action - Modern Trade Promotion Performance Review
 
+<PageIllustration id="promo" />
+
 [กลับไปหน้า Workshop](../../index.md)
 
 ## Exercise Overview

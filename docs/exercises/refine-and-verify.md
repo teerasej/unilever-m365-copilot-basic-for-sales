@@ -9,6 +9,8 @@ next:
 
 # Exercise: ตรวจและปรับผลลัพธ์ก่อนใช้งาน
 
+<PageIllustration id="verify" />
+
 [กลับไปหน้า Workshop](../index.md)
 
 ## Exercise Overview

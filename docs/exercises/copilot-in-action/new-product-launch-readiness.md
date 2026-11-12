@@ -9,6 +9,8 @@ next:
 
 # Exercise: Copilot in Action - New Product Launch Readiness Brief
 
+<PageIllustration id="launch" />
+
 [กลับไปหน้า Workshop](../../index.md)
 
 ## Exercise Overview

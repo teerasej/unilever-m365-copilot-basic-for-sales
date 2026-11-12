@@ -9,6 +9,8 @@ next:
 
 # Exercise: ใช้ Copilot ช่วยงานสื่อสารหลังเยี่ยมร้าน
 
+<PageIllustration id="comm" />
+
 ## Exercise Overview
 
 เราจะเปลี่ยนบันทึกเยี่ยมร้านเป็นรายงานและ Email ติดตามผู้ซื้อ โดยรักษาข้อเท็จจริงเดิม

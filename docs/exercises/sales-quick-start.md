@@ -9,6 +9,8 @@ next:
 
 # Exercise: ลองใช้ Copilot กับ 6 งานของทีม Sales
 
+<PageIllustration id="quick" />
+
 ## Exercise Overview
 
 เราจะลองใช้ prompt สั้น ๆ กับงาน Sales ตั้งแต่สรุปการเยี่ยมร้านไปจนถึงอัปเดตหัวหน้าทีม แล้วตรวจคำตอบก่อนนำไปใช้ต่อ

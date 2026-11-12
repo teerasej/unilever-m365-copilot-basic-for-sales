@@ -9,6 +9,8 @@ next:
 
 # Exercise เพิ่มเติม: สร้างภาพแคมเปญด้วย Copilot Create
 
+<PageIllustration id="create" />
+
 [กลับไปหน้า Workshop](../index.md)
 
 ## Exercise Overview
