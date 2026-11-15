@@ -15,7 +15,7 @@ next:
 
 ## Exercise Overview
 
-เราจะใช้ Copilot Chat อ่านข้อมูล promotion แบบสมมติ เพื่อเตรียม performance brief สำหรับทีม Sales และ Trade Marketing แล้วตรวจตัวเลขก่อนนำไปใช้ต่อ
+เราจะใช้ Copilot Chat อ่านข้อมูล promotion ที่จำลองขึ้นมา เพื่อเตรียม performance brief สำหรับทีม Sales และ Trade Marketing แล้วตรวจตัวเลขก่อนนำไปใช้ต่อ
 
 > **License:** Core ใช้ Copilot Chat แบบ Basic โดยไม่ต้องใช้ Microsoft 365 Copilot add-on; การเข้าใช้และแนบไฟล์ของบัญชีผู้เรียน **ต้องตรวจสอบก่อนเริ่มอบรม** ไม่ต้องใช้ PowerPoint agent เพื่อจบ Core
 
@@ -27,7 +27,7 @@ next:
 
 > **หากแนบไฟล์ไม่ได้:** เปิด [ข้อมูลย่อสำหรับวางใน Chat](../../resources/pasteable/promotion-excerpt.md) แล้วใช้ข้อความในกรอบแทน workbook ตลอด Core ข้อมูลย่อเป็นเพียงบางแถว ผลรวมและอันดับจึงต่างจากไฟล์เต็ม ให้ตรวจเฉพาะข้อมูลชุดที่ใช้
 >
-> ข้อมูลทั้งหมดเป็นเรื่องสมมติ ไฟล์ไม่มีปี สกุลเงิน retailer ชื่อ campaign หรือสาเหตุที่แท้จริง อย่าให้ Copilot เติมข้อมูลเหล่านี้
+> ข้อมูลทั้งหมดเป็นเรื่องสมมติ ไฟล์ไม่มีปี สกุลเงิน retailer ชื่อ campaign หรือสาเหตุที่แท้จริงครับ
 
 ## Core: เตรียม Promotion Performance Brief {#core-เตรียม-promotion-performance-brief-25-นาที}
 
@@ -47,11 +47,10 @@ next:
 2. วาง prompt ด้านล่าง แล้วกด **Send**
 
    ```text
-   ใช้เฉพาะ sheet Promotion Data ในไฟล์ที่แนบ หรือข้อมูลย่อที่ฉันวาง
+   ใช้เฉพาะ sheet Promotion Data ในไฟล์ หรือข้อมูลย่อที่ให้มาใน Chat นี้
    สรุป Total Promotion Sales ตาม Channel ภาษาไทย
    จัดเป็นตาราง Channel | Total Promotion Sales | จำนวนแถวที่ใช้
-   แสดงวิธีรวมยอด 1 บรรทัด และระบุว่ากำลังใช้ไฟล์เต็มหรือข้อมูลย่อ
-   ห้ามเติมปี สกุลเงิน retailer หรือสาเหตุที่ข้อมูลไม่ได้ระบุ
+   แสดงวิธีรวมยอด 1 บรรทัด 
    ```
 
 3. เปิดข้อมูลต้นทาง แล้วรวมยอดของ 1 channel เพื่อตรวจคำตอบ
@@ -74,13 +73,10 @@ next:
 1. ใช้ Chat เดิม แล้วส่ง prompt
 
    ```text
-   ใช้เฉพาะข้อมูลต้นทางชุดเดิม
+   ใช้เฉพาะข้อมูลชุดเดิม
    1. รวม Promotion Sales ตาม Product แล้วแสดง 3 products ที่มียอดรวมสูงสุด
    2. เลือกไม่เกิน 3 แถวที่ควรตรวจต่อจาก Stock Issue Flag, Margin Impact หรือ Uplift %
    จัดเป็น Product/Channel/Month | Fact จากข้อมูล | คำถามที่ควรถามทีม
-   แยก Fact ออกจาก Interpretation และ Information needed
-   ไม่อ้างว่า promotion mechanic หรือ stock issue เป็นสาเหตุของยอดที่เปลี่ยน
-   ไม่ใช้ค่าเฉลี่ย Uplift % แทน uplift รวมของทุกแถว
    ```
 
 2. ตรวจยอดรวมของ product อันดับแรกกับข้อมูลต้นทาง
@@ -114,8 +110,7 @@ next:
    สร้าง Promotion Performance Brief ภาษาไทยแบบสั้น สำหรับหัวหน้าทีม Sales
    โครงสร้าง: สรุปยอดไม่เกิน 3 bullets | ตาราง Channel | ข้อมูลที่ยังไม่ทราบ | Next step
    แยกยอดที่ยืนยันแล้วออกจากคำถามที่ต้องถามทีม
-   ใช้ [ต้องระบุ] สำหรับ Owner และ Due ไม่แต่งสาเหตุหรือรายละเอียด campaign
-   ไม่ต้องจัดอันดับ Product หรือวิเคราะห์ stock, margin และ uplift เพิ่ม
+   ใช้ [ต้องระบุ] สำหรับ Owner และ Due 
    ```
 
 2. ตรวจตัวเลขใน brief กับตาราง Channel และยอดรวมที่ตรวจแล้วจาก Practice 1
@@ -144,8 +139,7 @@ next:
    ```text
    จาก brief ที่ตรวจแล้ว ร่างข้อความ Microsoft Teams ภาษาไทยถึงทีม Sales และ Trade Marketing
    โครงสร้าง: หัวข้อ 1 บรรทัด | ข้อสังเกต 3 bullets | คำถามให้ทีมตรวจสอบ 3 ข้อ
-   ใช้น้ำเสียงกระชับและเป็นมืออาชีพ ไม่กล่าวถึงสาเหตุที่ไม่มีหลักฐาน
-   เก็บเป็นแบบร่าง ไม่ส่งข้อความ
+   ใช้น้ำเสียงกระชับและเป็นมืออาชีพ 
    ```
 
 2. ตรวจว่าคำถามอ้างอิงข้อมูลจริง และไม่มีการกล่าวโทษทีม
@@ -168,9 +162,13 @@ next:
 
    ```text
    ปรับ brief ที่ตรวจแล้วสำหรับ [Sales / Trade Marketing / Finance — เลือกหนึ่งบทบาท]
-   จัดเป็น Facts | Questions | Next step ไม่เกิน 5 bullets
-   Sales เน้น execution และ stock signal; Trade Marketing เน้น promotion signals; Finance เน้น margin impact
-   ใช้เฉพาะมุมมองของบทบาทที่เลือก ไม่เติมต้นทุน สกุลเงิน หรือ promotion mechanic ที่ไม่มีในข้อมูล
+   จัดเป็น Facts | Questions | Next step ไม่เกิน 5 ข้อ
+   
+   [เลือกบทบาทที่ต้องการให้เหมาะกับตัวเลือกด้านบน]
+   - Sales เน้น execution และ stock signal
+   - Trade Marketing เน้น promotion signals
+   Finance เน้น margin impact
+   
    ```
 
 2. เทียบกับ brief เดิมว่าข้อเท็จจริงเหมือนเดิม แต่มุมมองเหมาะกับผู้รับ
@@ -201,9 +199,7 @@ next:
    5. Information gaps และ questions for Sales team
    6. Recommended next steps และ decision checkpoint
    แต่ละ slide มี Slide title, Key message, 2–3 bullets และ Speaker notes ไม่เกิน 2 ประโยค
-   ระบุ chart suggestion 1 จุดที่ใช้ตัวเลขจากข้อมูลได้จริง
-   ห้ามเติมปี สกุลเงิน retailer campaign mechanic หรือสาเหตุที่ไม่มีหลักฐาน
-   จัดคำตอบให้พร้อมคัดลอกไป PowerPoint
+   
    ```
 
 2. ตรวจว่า slide ที่มีตัวเลขอ้างอิงข้อมูลต้นทางได้

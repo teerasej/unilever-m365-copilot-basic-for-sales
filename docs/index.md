@@ -4,10 +4,9 @@ next:
   text: "เริ่ม 6 งาน Sales"
   link: /exercises/sales-quick-start
 ---
-
 # AI for Everyone — Copilot Basic (Free)
 
-เราจะลองใช้ Copilot กับงานของทีม Sales ตั้งแต่สรุปการเยี่ยมลูกค้า ร่างข้อความ ไปจนถึงอ่านผล promotion และติดตามความพร้อมก่อน launch
+วันนี้พวกเราจะได้ฝึกใช้ Copilot กับงานของทีม Sales ตั้งแต่สรุปการเยี่ยมลูกค้า, ร่างข้อความ, ไปจนถึงอ่านผล promotion, และติดตามความพร้อมก่อน launch
 
 **เนื้อหาชุดนี้คัดสรรและปรับสำหรับ Montivory เพื่อใช้ในการอบรม Unilever**
 
@@ -28,9 +27,6 @@ next:
 
 > ถ้าแนบไฟล์ไม่ได้ ให้ใช้ [ข้อความตัวอย่างสำหรับวางใน Chat](resources/downloads.md) แทนได้
 
-## Agenda
-
-[ช่วงบ่าย: Copilot Basic (Free)](afternoon-agenda.md)
 
 ## เริ่มฝึกตามลำดับ
 
@@ -46,8 +42,7 @@ next:
 
 - [สรุป Customer Feedback และประเด็นที่ต้องส่งต่อ](exercises/copilot-in-action/customer-feedback-issue-response.md)
 - [สร้างภาพประกอบแคมเปญด้วย Copilot Create](exercises/copilot-create-mode.md)
-- ปรับโทน Email, วิเคราะห์ Product และสัญญาณ promotion, สรุปบริบท launch
-- PowerPoint-ready outline และ Excel-ready tables อยู่ในส่วนฝึกต่อของ Promotion Review และ Launch Readiness
+
 
 ## ไฟล์สำหรับฝึก
 

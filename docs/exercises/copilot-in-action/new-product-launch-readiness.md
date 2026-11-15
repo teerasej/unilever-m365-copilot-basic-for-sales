@@ -47,11 +47,8 @@ next:
 2. ส่ง prompt
 
    ```text
-   ใช้เฉพาะ Product Launch Brief ที่แนบ หรือข้อมูลย่อที่ฉันวาง
    สรุปภาษาไทยสำหรับทีม Sales ไม่เกิน 6 bullets
    ครอบคลุม Launch objective, Target audience, Channel plan, Known constraints และ Open decisions
-   ระบุว่ากำลังใช้ไฟล์เต็มหรือข้อมูลย่อ
-   ห้ามเติม brand, budget, launch date, retailer หรือข้อสรุปที่ไม่มีในข้อมูล
    ```
 
 3. เปิด brief ต้นทางแล้วตรวจเป้าหมาย 1 ข้อและข้อจำกัด 1 ข้อ
@@ -76,10 +73,9 @@ next:
    ```text
    ใช้เฉพาะ brief และ sheet Readiness Tracker ที่แนบ หรือข้อมูลย่อที่ฉันวาง
    สรุปจำนวน workstreams ตาม Status โดยนับแต่ละแถวงานหนึ่งครั้ง
-   ระบุทุกรายการที่ Risk Level เป็น High หรือ Status เป็น Blocked
+   ระบุทุกรายการที่ Risk Level เป็น 🔴High หรือ Status เป็น ⚠️Blocked
    จัดเป็น Workstream | Status | Risk Level | Dependency | ประเด็นที่ต้องยืนยัน
    แยก Fact | Interpretation | Information needed ไม่คาดเดาสาเหตุของ delay
-   ห้ามเติมวันที่จริง budget brand หรือ retailer
    ```
 
 3. นับแถวตาม Status ด้วยตัวเอง แล้วตรวจว่ารวมเท่ากับจำนวน workstreams ที่ใช้
@@ -104,9 +100,8 @@ next:
    ```text
    จาก brief, tracker และผลที่ตรวจแล้ว สร้าง action tracker ภาษาไทย
    คอลัมน์: Workstream | Owner จากไฟล์ | Action | Due | Source data to check
-   ใช้ Next Action ใน tracker เป็นฐาน ถ้าเสนอ action เพิ่มให้ขึ้นต้นว่า “ข้อเสนอ”
+   ใช้ Next Action ใน tracker เป็นข้อมูลตั้งต้น ถ้าเสนอ action เพิ่มให้ขึ้นต้นว่า “ข้อเสนอ”
    ใช้ [ต้องระบุ] สำหรับ Due และข้อมูลที่ไฟล์ไม่ได้ระบุ
-   ไม่แต่งเจ้าของงาน บุคคล วันที่ budget หรือสาเหตุ
    จัดตารางให้พร้อมคัดลอกไป Excel ไม่ต้องสร้างไฟล์
    ```
 
@@ -135,7 +130,7 @@ next:
 
    ```text
    จากข้อมูลที่ตรวจแล้ว ร่างข้อความ Microsoft Teams สำหรับ [Marketing / Supply Chain / Sales — เลือกหนึ่งบทบาท]
-   สรุปสถานะที่เกี่ยวข้อง 2 bullets และคำถามที่ต้องยืนยัน 3 ข้อ
+   สรุปสถานะที่เกี่ยวข้อง 2 ข้อ และคำถามที่ต้องยืนยัน 3 ข้อ
    จัดเป็น Facts | Questions | Next step ใช้น้ำเสียงกระชับ เป็นมืออาชีพ ไม่ตำหนิทีม
    ใช้ [ต้องระบุ] สำหรับข้อมูลที่ไม่มี ไม่เติม retailer target หรือ promotion detail
    เก็บเป็นแบบร่าง ไม่ส่งข้อความ
@@ -162,8 +157,8 @@ next:
    ```text
    ใช้เฉพาะ brief, tracker และผลที่ตรวจแล้วใน Chat นี้
    สร้าง meeting brief ภาษาไทยสำหรับ Launch Readiness ไม่เกิน 1 หน้า
-   โครงสร้าง: Meeting objective | Readiness summary 4 bullets | Key risks to verify 3 ข้อ | Open decisions
-   แยก Fact ออกจากคำถามหรือข้อเสนอ และไม่เติมวันที่จริง budget brand หรือ retailer
+   โครงสร้าง: Meeting objective | Readiness summary 4 ข้อ | Key risks to verify 3 ข้อ | Open decisions
+
    ```
 
 2. ตรวจว่าสถานะมาจาก tracker และ open decisions มาจาก brief หรือระบุชัดว่าเป็นคำถามเพิ่มเติม
@@ -187,8 +182,7 @@ next:
    ```text
    จาก meeting brief และ action tracker ที่ตรวจแล้ว ร่าง follow-up email ภาษาไทยถึงทีม launch
    โครงสร้าง: Subject | สรุปสถานะ | สิ่งที่ต้องยืนยัน | Owner/Action/Due
-   ขณะนี้เป็นข้อมูลก่อนประชุม ห้ามอ้างว่าที่ประชุมอนุมัติหรือตัดสินใจแล้ว
-   ใช้ [ต้องระบุ] สำหรับผู้รับและวันที่ที่ข้อมูลไม่ได้ให้ เก็บเป็นแบบร่าง ไม่ส่ง
+   เก็บเป็นแบบร่าง 
    ```
 
 2. ตรวจว่า email ไม่เปลี่ยนคำถามหรือข้อเสนอเป็นมติประชุม
