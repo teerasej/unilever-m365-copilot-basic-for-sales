@@ -14,7 +14,7 @@ export default defineConfig({
   cleanUrls: false,
   lastUpdated: false,
   head: [
-    ['meta', { name: 'theme-color', content: '#0f766e' }],
+    ['meta', { name: 'theme-color', content: '#0066cc' }],
     ['meta', { name: 'color-scheme', content: 'light dark' }]
   ],
   themeConfig: {

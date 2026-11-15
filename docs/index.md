@@ -4,7 +4,9 @@ next:
   text: "เริ่ม 6 งาน Sales"
   link: /exercises/sales-quick-start
 ---
-# AI for Everyone — Copilot Basic (Free)
+<div class="course-hero">
+
+# AI for Everyone — <span class="course-hero-title">Copilot Basic (Free)</span>
 
 วันนี้พวกเราจะได้ฝึกใช้ Copilot กับงานของทีม Sales ตั้งแต่สรุปการเยี่ยมลูกค้า, ร่างข้อความ, ไปจนถึงอ่านผล promotion, และติดตามความพร้อมก่อน launch
 
@@ -12,9 +14,16 @@ next:
 
 <PageIllustration id="home" />
 
-[เริ่ม 6 งาน Sales](exercises/sales-quick-start.md) · [ดาวน์โหลดไฟล์](resources/downloads.md)
+<div class="course-hero-actions">
+
+[เริ่ม 6 งาน Sales](exercises/sales-quick-start.md)
+[ดาวน์โหลดไฟล์](resources/downloads.md)
+
+</div>
 
 **Unilever · Online · 16 November 2026 · 13:00–16:00 น.**
+
+</div>
 
 > **License:** กิจกรรมหลักออกแบบสำหรับ Copilot Chat แบบ Basic ด้วยบัญชีองค์กร โดยไม่ต้องซื้อ Microsoft 365 Copilot add-on เพิ่ม ต้องตรวจสอบสิทธิ์และการเปิดใช้งานของบัญชีผู้เรียนก่อนเริ่มอบรม
 
