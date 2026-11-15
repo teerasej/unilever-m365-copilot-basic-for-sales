@@ -182,7 +182,7 @@ next:
    ```text
    จาก meeting brief และ action tracker ที่ตรวจแล้ว ร่าง follow-up email ภาษาไทยถึงทีม launch
    โครงสร้าง: Subject | สรุปสถานะ | สิ่งที่ต้องยืนยัน | Owner/Action/Due
-   เก็บเป็นแบบร่าง 
+   เก็บเป็นแบบร่าง
    ```
 
 2. ตรวจว่า email ไม่เปลี่ยนคำถามหรือข้อเสนอเป็นมติประชุม

@@ -50,7 +50,7 @@ next:
    ใช้เฉพาะ sheet Promotion Data ในไฟล์ หรือข้อมูลย่อที่ให้มาใน Chat นี้
    สรุป Total Promotion Sales ตาม Channel ภาษาไทย
    จัดเป็นตาราง Channel | Total Promotion Sales | จำนวนแถวที่ใช้
-   แสดงวิธีรวมยอด 1 บรรทัด 
+   แสดงวิธีรวมยอด 1 บรรทัด
    ```
 
 3. เปิดข้อมูลต้นทาง แล้วรวมยอดของ 1 channel เพื่อตรวจคำตอบ
@@ -110,7 +110,7 @@ next:
    สร้าง Promotion Performance Brief ภาษาไทยแบบสั้น สำหรับหัวหน้าทีม Sales
    โครงสร้าง: สรุปยอดไม่เกิน 3 bullets | ตาราง Channel | ข้อมูลที่ยังไม่ทราบ | Next step
    แยกยอดที่ยืนยันแล้วออกจากคำถามที่ต้องถามทีม
-   ใช้ [ต้องระบุ] สำหรับ Owner และ Due 
+   ใช้ [ต้องระบุ] สำหรับ Owner และ Due
    ```
 
 2. ตรวจตัวเลขใน brief กับตาราง Channel และยอดรวมที่ตรวจแล้วจาก Practice 1
@@ -139,7 +139,7 @@ next:
    ```text
    จาก brief ที่ตรวจแล้ว ร่างข้อความ Microsoft Teams ภาษาไทยถึงทีม Sales และ Trade Marketing
    โครงสร้าง: หัวข้อ 1 บรรทัด | ข้อสังเกต 3 bullets | คำถามให้ทีมตรวจสอบ 3 ข้อ
-   ใช้น้ำเสียงกระชับและเป็นมืออาชีพ 
+   ใช้น้ำเสียงกระชับและเป็นมืออาชีพ
    ```
 
 2. ตรวจว่าคำถามอ้างอิงข้อมูลจริง และไม่มีการกล่าวโทษทีม
@@ -163,12 +163,12 @@ next:
    ```text
    ปรับ brief ที่ตรวจแล้วสำหรับ [Sales / Trade Marketing / Finance — เลือกหนึ่งบทบาท]
    จัดเป็น Facts | Questions | Next step ไม่เกิน 5 ข้อ
-   
+
    [เลือกบทบาทที่ต้องการให้เหมาะกับตัวเลือกด้านบน]
    - Sales เน้น execution และ stock signal
    - Trade Marketing เน้น promotion signals
    Finance เน้น margin impact
-   
+
    ```
 
 2. เทียบกับ brief เดิมว่าข้อเท็จจริงเหมือนเดิม แต่มุมมองเหมาะกับผู้รับ
@@ -199,7 +199,7 @@ next:
    5. Information gaps และ questions for Sales team
    6. Recommended next steps และ decision checkpoint
    แต่ละ slide มี Slide title, Key message, 2–3 bullets และ Speaker notes ไม่เกิน 2 ประโยค
-   
+
    ```
 
 2. ตรวจว่า slide ที่มีตัวเลขอ้างอิงข้อมูลต้นทางได้
